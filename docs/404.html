@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Siden findes ikke | skaerme.dk</title>
+<meta name="description" content="Siden findes ikke. Gå til forsiden med tilbud, prisberegner og guides om Fruit of the Loom basics.">
+<link rel="canonical" href="https://skaerme.dk/404">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#131921">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:site_name" content="skaerme.dk">
+<meta property="og:locale" content="da_DK">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Siden findes ikke | skaerme.dk">
+<meta property="og:description" content="Siden findes ikke. Gå til forsiden med tilbud, prisberegner og guides om Fruit of the Loom basics.">
+<meta property="og:url" content="https://skaerme.dk/404">
+<meta property="og:image" content="https://skaerme.dk/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#0f1111;--navy:#131921;--navy2:#232f3e;--paper:#fff;--bg:#f3f3f3;--line:#ddd;--muted:#565959;--red:#cc0c39;--deal:#cc0c39;--buy:#ffd814;--buy-h:#f7ca00;--buy-b:#fcd200;--link:#007185;--green:#067d62;--soft:#f7f7f7}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;font-size:16.5px}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px}
+.narrow{max-width:860px}
+
+/* promo + header */
+.promo{background:var(--red);color:#fff;font-size:.8rem;font-weight:700;text-align:center;padding:7px 12px;letter-spacing:.01em}
+.promo span{white-space:nowrap}
+.promo span+span::before{content:"·";margin:0 9px;opacity:.75}
+.site-header{position:sticky;top:0;z-index:50;background:var(--navy);color:#fff}
+.header-inner{height:64px;display:flex;align-items:center;gap:22px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;margin-right:auto}
+.logo img{width:36px;height:36px}
+.logo-text{display:flex;flex-direction:column;line-height:1.05}
+.logo-text b{font-weight:900;font-size:1.12rem;letter-spacing:-.03em}
+.logo-text b span{color:var(--buy)}
+.logo-text small{font-size:.7rem;color:#ccc;font-weight:500}
+.main-nav{display:flex;gap:20px}
+.main-nav a{text-decoration:none;font-weight:600;font-size:.9rem;color:#fff}
+.main-nav a:hover{text-decoration:underline;text-underline-offset:4px}
+.nav-toggle{display:none;background:none;border:0;font-size:1.5rem;cursor:pointer;padding:6px;color:#fff}
+
+/* buttons */
+.btn-buy{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 22px;border-radius:100px;background:var(--buy);border:1px solid var(--buy-b);color:var(--ink) !important;text-decoration:none;font-weight:700;font-size:.98rem;box-shadow:0 2px 5px rgba(213,217,217,.5);transition:background .12s}
+.btn-buy:hover{background:var(--buy-h)}
+.btn-sm{min-height:36px;padding:0 16px;font-size:.86rem;white-space:nowrap}
+.btn-lg{min-height:52px;padding:0 30px;font-size:1.08rem}
+.btn-ghost{display:inline-flex;align-items:center;min-height:52px;padding:0 22px;border-radius:100px;border:1px solid #bbb;background:#fff;text-decoration:none;font-weight:600}
+.pill{display:inline-block;background:var(--red);color:#fff;font-size:.7rem;font-weight:800;padding:3px 9px;border-radius:4px;margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+
+/* hero */
+.hero{background:linear-gradient(180deg,#eaeded 0%,#fff 100%);padding:34px 0 26px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:34px;align-items:center}
+.hero h1{font-size:clamp(2rem,4.4vw,3.3rem);font-weight:900;letter-spacing:-.035em;line-height:1.04;margin-bottom:14px}
+.hero .lede{font-size:1.08rem;color:#333;margin-bottom:14px;max-width:620px}
+.hero-bullets{list-style:none;margin:0 0 20px}
+.hero-bullets li{font-weight:600;margin:5px 0;color:var(--green)}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+.hero-img{position:relative;display:block;background:#fff;border-radius:18px;padding:18px;box-shadow:0 8px 30px rgba(0,0,0,.08);text-decoration:none}
+.hero-img img{aspect-ratio:1/1;object-fit:contain;width:100%}
+.hero-price{position:absolute;right:18px;bottom:18px;background:var(--navy);color:#fff;border-radius:12px;padding:8px 14px;font-size:.9rem}
+.hero-price b{font-size:1.5rem;color:var(--buy)}
+.eyebrow{font-size:.76rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+.meta{font-size:.82rem;color:var(--muted);margin-bottom:20px}
+
+/* deal badges */
+.deal{position:absolute;top:10px;left:10px;background:var(--deal);color:#fff;font-weight:800;font-size:.76rem;padding:4px 8px;border-radius:4px;z-index:1}
+.deal-lg{top:18px;left:18px;font-size:1.5rem;padding:10px 14px;border-radius:12px;line-height:1;text-align:center}
+.deal-lg small{display:block;font-size:.7rem;font-weight:700;margin-top:3px}
+
+/* product grid */
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;margin:18px 0 26px}
+.pcard{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px 14px;text-decoration:none;transition:box-shadow .15s,border-color .15s}
+.pcard:hover{box-shadow:0 6px 22px rgba(0,0,0,.12);border-color:#bbb}
+.pcard img{aspect-ratio:1/1;object-fit:contain;width:100%;margin-bottom:8px}
+.pname{font-weight:700;font-size:.95rem;line-height:1.3;color:var(--ink)}
+.pcard:hover .pname{color:var(--red)}
+.pline{font-size:.8rem;color:var(--muted);margin:2px 0 6px}
+.pprice b{display:block;font-size:1.55rem;font-weight:800;letter-spacing:-.02em}
+.pprice small{display:block;font-size:.8rem;color:var(--red);font-weight:700}
+.pship{font-size:.76rem;color:var(--green);margin:6px 0 10px}
+.buy{margin-top:auto;display:flex;align-items:center;justify-content:center;min-height:38px;border-radius:100px;background:var(--buy);border:1px solid var(--buy-b);font-weight:700;font-size:.9rem}
+.pcard:hover .buy{background:var(--buy-h)}
+.rail{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:14px 14px 2px;margin:0 0 30px}
+.rail-h{font-weight:800;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.rail .pgrid{grid-template-columns:repeat(3,1fr);margin:10px 0 12px}
+.rail .pship,.rail .pline{display:none}
+
+/* article */
+.article{padding-top:22px;padding-bottom:60px}
+.article h1{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:900;letter-spacing:-.03em;line-height:1.1;margin-bottom:10px}
+.lede{font-size:1.06rem;color:#333;margin-bottom:22px}
+.crumbs{font-size:.8rem;color:var(--muted);margin-bottom:18px}
+.crumbs a{color:var(--link)}
+.prose h2,.home h2{font-size:clamp(1.35rem,2.8vw,1.8rem);font-weight:800;letter-spacing:-.025em;line-height:1.2;margin:40px 0 12px}
+.prose h3{font-size:1.12rem;font-weight:700;margin:26px 0 8px}
+.prose p,.home p{margin-bottom:15px;color:#222}
+.prose ul,.prose ol,.home ul,.home ol{margin:0 0 18px 22px}
+.prose li,.home li{margin-bottom:6px}
+.prose a:not(.btn-buy):not(.pcard),.home p a,.home li a{color:var(--link);text-underline-offset:3px}
+.prose table:not(.compare):not(.price-table){width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:.92rem}
+.prose table:not(.compare):not(.price-table) th{background:var(--navy2);color:#fff;text-align:left;padding:10px 12px;font-weight:700}
+.prose table:not(.compare):not(.price-table) td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.prose table:not(.compare):not(.price-table) tr:nth-child(even) td{background:#fafafa}
+caption{caption-side:bottom;text-align:left;font-size:.78rem;color:var(--muted);padding-top:8px}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+/* home */
+.home section{padding:6px 0}
+.home .band{background:var(--bg);padding:44px 0;margin:36px 0}
+.home .band h2{margin-top:0}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.sec-head a{color:var(--link);font-weight:600;font-size:.92rem}
+
+/* quick answer */
+.quick-answer{background:#fff8e1;border:1px solid #ffe08a;border-left:5px solid var(--buy);border-radius:10px;padding:16px 20px;margin:0 0 24px}
+.quick-answer span{display:block;font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:4px}
+.quick-answer p{margin:0;font-size:1rem;color:#111}
+.hero + .wrap .quick-answer{margin-top:18px}
+
+/* cta + facts */
+.cta-box{background:#fff;border:2px solid var(--buy);border-radius:14px;padding:18px 20px;margin:26px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.cta-box p{margin:0 !important;font-weight:700;font-size:1rem;flex:1 1 280px;color:#000 !important}
+.facts{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:20px 0}
+.facts div{background:#fff;padding:14px 10px;text-align:center}
+.facts b{display:block;font-size:1.2rem;font-weight:900;letter-spacing:-.02em}
+.facts span{font-size:.76rem;color:var(--muted)}
+
+/* price table */
+.price-table{width:100%;border-collapse:collapse;font-size:.9rem;margin:16px 0 24px;min-width:640px;background:#fff}
+.price-table th{background:var(--navy2);color:#fff;text-align:left;padding:10px 12px;font-weight:700;font-size:.8rem}
+.price-table td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.price-table td a{color:var(--link)}
+.price-table td small{display:block;color:var(--red);font-size:.76rem;font-weight:600}
+
+/* calculator */
+.calc{border:2px solid var(--navy);border-radius:16px;padding:20px 22px;margin:24px 0;background:#fff}
+.calc h3{font-size:1.2rem;font-weight:800;margin:0 0 4px !important}
+.calc p{font-size:.88rem;color:var(--muted);margin-bottom:14px !important}
+.calc-row{display:grid;grid-template-columns:2fr 1fr;gap:12px;margin-bottom:14px}
+.calc label{display:flex;flex-direction:column;gap:4px;font-size:.8rem;font-weight:700}
+.calc select,.calc input{font:inherit;font-size:1rem;padding:10px 12px;border:1px solid #aaa;border-radius:8px;background:#fff}
+.calc-out{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+.calc-out div{background:var(--bg);border-radius:10px;padding:12px 14px}
+.calc-out span{display:block;font-size:.76rem;color:var(--muted)}
+.calc-out b{font-size:1.5rem;font-weight:900;letter-spacing:-.02em}
+
+/* compare */
+.compare-wrap{margin:18px 0 8px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.compare{width:100%;border-collapse:collapse;font-size:.9rem}
+.compare th{background:var(--navy2);color:#fff;text-align:left;padding:11px 13px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700}
+.compare td{padding:13px;border-bottom:1px solid var(--line);vertical-align:top}
+.compare tr:last-child td{border-bottom:0}
+.compare .sub{display:block;color:var(--muted);font-size:.8rem}
+.compare tr.is-mm td{background:#fffbea}
+.compare a.out{color:var(--link);font-weight:600;font-size:.84rem;white-space:nowrap}
+.compare td:first-child .pill{display:table;margin-bottom:6px}
+.source{font-size:.78rem;color:var(--muted);margin-top:8px}
+
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:16px 0 24px}
+.card{display:flex;flex-direction:column;gap:6px;padding:18px;border:1px solid var(--line);border-radius:12px;text-decoration:none;background:#fff;transition:box-shadow .15s}
+.card:hover{box-shadow:0 6px 20px rgba(0,0,0,.1)}
+.card-tag{font-size:.68rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+.card strong{font-size:1rem;line-height:1.3}
+.card em{font-style:normal;font-size:.84rem;color:var(--link)}
+
+/* faq */
+.faq{margin-top:44px}
+.faq h2{font-size:1.5rem;font-weight:800;margin-bottom:10px}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-item summary{cursor:pointer;list-style:none;padding:16px 34px 16px 0;font-weight:700;position:relative}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";position:absolute;right:4px;top:12px;font-size:1.4rem;font-weight:400}
+.faq-item[open] summary::after{content:"−"}
+.faq-item div{padding:0 0 16px;color:#222}
+.related{margin-top:40px;padding:20px 22px;background:var(--bg);border-radius:12px}
+.related h2{font-size:1.05rem;font-weight:800;margin-bottom:8px}
+.related ul{margin:0 0 0 18px}
+.related li{margin:5px 0}
+.related a{color:var(--link)}
+
+/* footer */
+.site-footer{background:var(--navy2);color:#ccc;padding:40px 0 28px;margin-top:40px}
+.footer-top{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+.footer-top b{color:#fff;font-weight:900;font-size:1.1rem}
+.footer-top p{max-width:460px;font-size:.86rem;margin-top:6px}
+.footer-top nav{display:flex;gap:16px;flex-wrap:wrap}
+.footer-top nav a{color:#fff;text-decoration:none;font-size:.88rem}
+.footer-copy{border-top:1px solid #3a4553;margin-top:28px;padding-top:18px;font-size:.76rem;color:#9aa}
+.mobile-cta{display:none}
+
+.main-nav a{white-space:nowrap}
+@media (max-width:1180px){
+  .main-nav{gap:14px}
+  .main-nav a{font-size:.84rem}
+}
+@media (max-width:1060px){
+  .head-cta{display:none}
+  .nav-toggle{display:block}
+  .main-nav{display:none;position:absolute;top:64px;left:0;right:0;background:var(--navy);flex-direction:column;gap:0;padding:4px 24px 12px}
+  .main-nav.open{display:flex}
+  .main-nav a{padding:13px 0;border-top:1px solid #2c3a4a;font-size:.95rem}
+}
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr;gap:18px}
+  .hero-img{max-width:420px;margin:0 auto;order:-1}
+  .facts{grid-template-columns:repeat(2,1fr)}
+  .facts div:last-child{grid-column:span 2}
+  .rail .pgrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .rail .pprice b{font-size:1.15rem}
+  .rail .pprice small{font-size:.7rem}
+  .rail .pname{font-size:.8rem}
+  .rail .buy{font-size:.78rem;min-height:32px}
+  .compare-wrap{border:0;border-radius:0;background:none}
+  .compare thead{display:none}
+  .compare,.compare tbody,.compare tr,.compare td{display:block;width:100%}
+  .compare tr{border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden;background:#fff}
+  .compare td{border:0;padding:6px 14px;display:flex;justify-content:space-between;gap:14px;text-align:right}
+  .compare td:first-child{display:block;text-align:left;padding-top:14px;font-size:1rem}
+  .compare td:last-child{padding-bottom:14px;justify-content:flex-start}
+  .compare td[data-label]:not(:first-child)::before{content:attr(data-label);font-weight:700;color:#000;text-align:left}
+}
+@media (max-width:768px){
+  body{font-size:16px;padding-bottom:64px}
+  .wrap{padding:0 14px}
+  .promo span:nth-child(n+3){display:none}
+  .head-cta{display:none}
+  .nav-toggle{display:block}
+  .main-nav{display:none;position:absolute;top:64px;left:0;right:0;background:var(--navy);flex-direction:column;gap:0;padding:4px 16px 12px}
+  .main-nav.open{display:flex}
+  .main-nav a{padding:13px 0;border-top:1px solid #2c3a4a}
+  .hero{padding:18px 0 14px}
+  .pgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .pcard{padding:10px}
+  .pprice b{font-size:1.3rem}
+  .cta-box .btn-buy,.calc .btn-buy,.hero-ctas .btn-buy{width:100%}
+  .btn-ghost{width:100%;justify-content:center}
+  .calc-row,.calc-out{grid-template-columns:1fr}
+  .mobile-cta{display:block;position:fixed;left:10px;right:10px;bottom:10px;z-index:60}
+  .mobile-cta a{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:100px;background:var(--buy);border:1px solid var(--buy-b);color:var(--ink);text-decoration:none;font-weight:800;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+}
+:root{--ink:#1d1d1f;--navy:#1d1d1f;--navy2:#1d1d1f;--red:#6e6e73;--deal:#1d1d1f;--buy:#1d1d1f;--buy-h:#000000;--buy-b:#1d1d1f;--link:#0066cc;--green:#6e6e73;--bg:#f5f5f7;--line:#d2d2d7;--muted:#6e6e73}/* skaerme.dk - designlag oven på engine/site.css. Rolig, kurateret, Apple-inspireret. */
+:root{--ink:#1d1d1f;--muted:#6e6e73;--line:#d2d2d7;--bg:#f5f5f7;--link:#0066cc;--blue:#0071e3;--blue-h:#0077ed}
+body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:17px;letter-spacing:-.011em;line-height:1.5;color:var(--ink);background:#fff}
+::selection{background:#b3d7ff}
+
+/* header: let, gennemsigtig, ingen tilbudsbar */
+.promo{display:none}
+.site-header{background:rgba(255,255,255,.82);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);color:var(--ink);border-bottom:1px solid rgba(0,0,0,.08)}
+.header-inner{height:52px}
+.logo{color:var(--ink)}
+.logo img{width:26px;height:26px;border-radius:7px}
+.logo-text b{font-weight:600;font-size:1rem;letter-spacing:-.02em}
+.logo-text small{display:none}
+.main-nav{gap:26px}
+.main-nav a{color:var(--ink);font-weight:400;font-size:.78rem;opacity:.8;transition:opacity .2s}
+.main-nav a:hover{opacity:1;text-decoration:none}
+.nav-toggle{color:var(--ink);font-size:1.25rem}
+
+/* knapper */
+.btn-buy{background:var(--blue);border:0;color:#fff !important;font-weight:400;font-size:1.02rem;letter-spacing:-.01em;box-shadow:none;padding:0 24px}
+.btn-buy:hover{background:var(--blue-h)}
+.btn-sm{min-height:28px;padding:0 13px;font-size:.76rem}
+.btn-lg{min-height:48px;padding:0 28px;font-size:1.05rem}
+.btn-ghost{min-height:48px;border:1px solid var(--blue);color:var(--blue);background:transparent;font-weight:400}
+.btn-ghost:hover{background:var(--blue);color:#fff}
+.pill{background:var(--ink);color:#fff;border-radius:100px;text-transform:none;letter-spacing:0;font-weight:600;font-size:.72rem;padding:3px 10px}
+
+/* hero: centreret, stor typografi, produktet svæver på grå flade */
+.hero{background:var(--bg);padding:80px 0 0;text-align:center}
+.hero-grid{grid-template-columns:1fr;gap:34px;max-width:1000px;margin:0 auto}
+.hero .eyebrow{color:#bf4800;font-size:1.05rem}
+.hero h1{font-size:clamp(2.5rem,6.2vw,4.8rem);font-weight:700;letter-spacing:-.05em;line-height:1.02;max-width:15ch;margin:0 auto 20px}
+.hero .lede{font-size:clamp(1.12rem,2.1vw,1.45rem);color:var(--muted);max-width:660px;margin:0 auto 30px;line-height:1.38;letter-spacing:-.015em}
+.hero-bullets{display:none}
+.hero-ctas{justify-content:center;gap:16px}
+.hero-img{background:transparent;box-shadow:none;padding:0;border-radius:0;max-width:720px;width:100%;margin:0 auto;order:0}
+.hero-img img{mix-blend-mode:multiply;aspect-ratio:auto}
+.hero-price{position:static;display:block;background:none;color:var(--muted);font-size:.95rem;padding:6px 0 56px;border-radius:0}
+.hero-price b{color:var(--ink);font-size:.95rem;font-weight:500}
+.eyebrow{color:var(--muted);font-size:.95rem;font-weight:600;letter-spacing:-.01em;text-transform:none;margin-bottom:12px}
+.meta{color:#86868b}
+
+/* kort svar */
+.quick-answer{background:#fff;border:0;border-radius:20px;padding:28px 32px;box-shadow:0 2px 30px rgba(0,0,0,.07)}
+.quick-answer span{color:var(--muted);font-weight:600;font-size:.82rem;letter-spacing:0;text-transform:none;margin-bottom:8px}
+.quick-answer p{font-size:1.05rem;line-height:1.55;color:var(--ink)}
+.hero + .wrap .quick-answer{margin-top:-28px;position:relative}
+.article .quick-answer{background:var(--bg);box-shadow:none}
+
+/* produktkort: galleri frem for hylde */
+.pgrid{grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:22px;margin:28px 0 20px}
+.pcard{background:var(--bg);border:0;border-radius:24px;padding:34px 26px 30px;text-align:center;align-items:center;transition:transform .3s ease,box-shadow .3s ease}
+.pcard:hover{box-shadow:0 14px 44px rgba(0,0,0,.09);transform:translateY(-3px);border-color:transparent}
+.pcard img{mix-blend-mode:multiply;margin-bottom:22px;transition:transform .4s ease}
+.pcard:hover img{transform:scale(1.03)}
+.pname{font-size:1.3rem;font-weight:600;letter-spacing:-.025em}
+.pcard:hover .pname{color:var(--ink)}
+.pline{font-size:.9rem;color:var(--muted);margin:4px 0 12px;line-height:1.4}
+.pprice b{font-size:1rem;font-weight:400;letter-spacing:-.01em;color:var(--ink)}
+.pship{display:none}
+.buy{background:none;border:0;color:var(--link);font-weight:400;font-size:1rem;min-height:0;margin-top:14px}
+.buy::after{content:"\00a0›"}
+.pcard:hover .buy{background:none;text-decoration:underline;text-underline-offset:3px}
+.rail{background:none;border:0;padding:0;margin:8px 0 34px}
+.rail-h{color:var(--muted);font-weight:600;font-size:.82rem;letter-spacing:0;text-transform:none}
+.rail .pcard{padding:18px 12px 16px;border-radius:18px}
+.rail .pname{font-size:.98rem}
+.rail .buy{font-size:.88rem;margin-top:8px}
+
+/* sektioner */
+.home section{padding:56px 0}
+.home .band{background:var(--bg);padding:84px 0;margin:40px 0}
+.prose h2,.home h2{font-size:clamp(1.75rem,3.6vw,2.7rem);font-weight:700;letter-spacing:-.04em;line-height:1.08;margin:48px 0 16px}
+.home .sec-head h2,.home .band h2{margin-top:0}
+.prose h3{font-size:1.28rem;font-weight:600;letter-spacing:-.02em;margin:34px 0 8px}
+.prose p,.home p{color:#424245;font-size:1.06rem;line-height:1.6}
+.prose li,.home li{color:#424245}
+.sec-head a,.prose a:not(.btn-buy):not(.pcard),.home p a,.home li a{color:var(--link);font-weight:400;text-decoration:none}
+.sec-head a:hover,.prose a:not(.btn-buy):not(.pcard):hover,.home p a:hover{text-decoration:underline;text-underline-offset:3px}
+.statement{text-align:center;max-width:1080px;margin:0 auto}
+.statement h2,.statement>p{max-width:760px;margin-left:auto;margin-right:auto}
+#udvalget .pgrid{grid-template-columns:repeat(3,1fr)}
+.statement h2{font-size:clamp(2rem,4.6vw,3.4rem) !important}
+.statement p{font-size:clamp(1.1rem,2vw,1.35rem) !important;color:var(--muted) !important;line-height:1.45}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px;text-align:left}
+.trio div{background:var(--bg);border-radius:24px;padding:30px 28px}
+.trio b{display:block;font-size:2.2rem;font-weight:700;letter-spacing:-.04em;line-height:1;margin-bottom:10px;color:var(--ink)}
+.trio span{color:var(--muted);font-size:.98rem;line-height:1.45;display:block}
+
+/* artikel */
+.article{padding-top:40px}
+.article h1{font-size:clamp(2.3rem,5.4vw,3.6rem);font-weight:700;letter-spacing:-.05em;line-height:1.04;margin-bottom:14px}
+.lede{font-size:clamp(1.12rem,2vw,1.32rem);color:var(--muted);line-height:1.45;letter-spacing:-.015em}
+.crumbs{color:#86868b}
+.crumbs a{color:var(--link);text-decoration:none}
+
+/* cta, fakta, tabeller */
+.cta-box{background:var(--bg);border:0;border-radius:24px;padding:30px 34px}
+.cta-box p{font-weight:500 !important;font-size:1.1rem !important;color:var(--ink) !important;letter-spacing:-.015em}
+.facts{background:transparent;border:0;gap:14px}
+.facts div{background:var(--bg);border-radius:18px;padding:20px 12px}
+.facts b{font-weight:600}
+.compare-wrap{border:0;border-radius:20px;background:#fff;box-shadow:0 2px 30px rgba(0,0,0,.06)}
+.compare th{background:#fff;color:var(--muted);text-transform:none;letter-spacing:0;font-weight:600;font-size:.8rem;border-bottom:1px solid var(--line)}
+.compare td{border-color:#e8e8ed}
+.compare tr.is-mm td{background:#fff}
+.compare tr:not(.is-mm) td{background:#fafafc}
+.compare .btn-buy{font-size:.82rem}
+.compare a.out{color:var(--link);font-weight:400}
+.price-table th,.prose table:not(.compare):not(.price-table) th{background:var(--bg);color:var(--ink);font-weight:600}
+.price-table td{border-color:#e8e8ed}
+.source{color:#86868b}
+
+/* guides, faq, relaterede */
+.cards{gap:18px}
+.card{background:var(--bg);border:0;border-radius:20px;padding:26px 24px;transition:transform .3s ease,box-shadow .3s ease}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 34px rgba(0,0,0,.08)}
+.card-tag{color:var(--muted);font-weight:600;font-size:.78rem;letter-spacing:0;text-transform:none}
+.card strong{font-size:1.15rem;font-weight:600;letter-spacing:-.02em}
+.card em{color:var(--link)}
+.faq h2{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:700;letter-spacing:-.035em}
+.faq-item{border-color:var(--line)}
+.faq-item summary{font-weight:500;font-size:1.08rem;letter-spacing:-.015em;padding:20px 34px 20px 0}
+.faq-item summary::after{color:var(--muted);font-weight:300}
+.faq-item div{color:#424245}
+.related{background:var(--bg);border-radius:20px;padding:26px 28px}
+.related h2{font-weight:600}
+.related a{color:var(--link);text-decoration:none}
+
+/* footer som en rolig kolofon */
+.site-footer{background:var(--bg);color:var(--muted);padding:44px 0 30px;font-size:.78rem}
+.footer-top b{color:var(--ink);font-weight:600;font-size:.95rem}
+.footer-top p{font-size:.8rem;line-height:1.5}
+.footer-top nav a{color:#424245;font-size:.8rem}
+.footer-top nav a:hover{text-decoration:underline}
+.footer-copy{border-color:var(--line);color:#86868b;font-size:.74rem}
+
+@media (max-width:1060px){
+  .main-nav{background:rgba(255,255,255,.97);top:52px;padding:4px 24px 14px}
+  .main-nav a{border-top:1px solid #e8e8ed;font-size:1rem;opacity:1}
+}
+@media (max-width:860px){
+  .hero-img{order:0;max-width:100%}
+  .trio{grid-template-columns:1fr}
+  #udvalget .pgrid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:768px){
+  .hero{padding:48px 0 0}
+  .hero-price{padding-bottom:44px}
+  .hero-ctas .btn-buy,.btn-ghost{width:auto}
+  .main-nav{padding:4px 16px 14px}
+  .pgrid,#udvalget .pgrid{grid-template-columns:1fr;gap:16px}
+  .rail .pgrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .home section{padding:36px 0}
+  .home .band{padding:56px 0}
+  .quick-answer{padding:22px 22px}
+  body{padding-bottom:0}
+  .mobile-cta{display:none}
+}
+
+/* sammenligning: vinderkort og domme */
+.winners{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:28px 0 10px}
+.win{background:var(--bg);border-radius:22px;padding:28px 26px;display:flex;flex-direction:column;gap:6px}
+.win span{font-size:.8rem;font-weight:600;color:#bf4800}
+.win b{font-size:1.35rem;font-weight:600;letter-spacing:-.025em;line-height:1.2}
+.win em{font-style:normal;color:var(--muted);font-size:.95rem}
+.win p{font-size:.95rem !important;color:#424245 !important;margin:6px 0 10px !important;line-height:1.5}
+.win a{margin-top:auto;color:var(--link);text-decoration:none;font-size:.95rem}
+.win a:hover{text-decoration:underline}
+.win-own{background:#fff;box-shadow:0 2px 30px rgba(0,0,0,.08)}
+.verdict{background:var(--bg);border-radius:22px;padding:26px 30px;margin:20px 0}
+.verdict-win{background:#fff;box-shadow:0 2px 30px rgba(0,0,0,.08)}
+.verdict h3{margin:2px 0 12px !important;font-size:1.3rem !important}
+.v-tag{font-size:.8rem !important;font-weight:600;color:#bf4800 !important;margin:0 !important}
+.verdict ul{list-style:none;margin:0 0 12px !important;padding:0}
+.verdict li{padding-left:24px;position:relative;margin-bottom:4px;font-size:.98rem}
+.v-pros li::before{content:"+";position:absolute;left:4px;color:#1d7a35;font-weight:700}
+.v-cons li::before{content:"\2212";position:absolute;left:4px;color:#b3261e;font-weight:700}
+.v-verdict{margin:0 !important;color:var(--ink) !important;font-weight:500}
+@media (max-width:860px){.winners{grid-template-columns:1fr 1fr}}
+@media (max-width:768px){.winners{grid-template-columns:1fr}.verdict{padding:22px 20px}}
+
+/* --- spacing-pas 2 --- */
+.compare .pill{display:none}
+.compare tr.is-mm td,.compare tr:not(.is-mm) td{background:#fff}
+.compare th{padding:16px 18px}
+.compare td{padding:18px;line-height:1.45}
+.compare td:first-child b{font-weight:600;font-size:1rem}
+.compare .sub{margin-top:2px}
+.compare .btn-buy,.compare a.out{background:none !important;border:0;box-shadow:none;padding:0;min-height:0;color:var(--link) !important;font-size:.9rem;font-weight:400;white-space:nowrap}
+.compare .btn-buy:hover,.compare a.out:hover{text-decoration:underline;text-underline-offset:3px}
+.source{margin-top:14px;line-height:1.5}
+.quick-answer{margin-bottom:36px}
+.article .quick-answer{padding:26px 30px}
+.verdict{padding:30px 32px;margin:24px 0}
+.verdict::after{content:"";display:table;clear:both}
+.v-img{float:right;width:150px;height:auto;margin:0 0 12px 24px;mix-blend-mode:multiply}
+.v-tag{margin-bottom:4px !important}
+.verdict h3{margin:4px 0 16px !important;line-height:1.25}
+.verdict ul{margin-bottom:16px !important}
+.verdict li{margin-bottom:8px;line-height:1.45}
+.winners{gap:22px}
+.win{padding:30px 28px 28px;gap:8px}
+.w-img{width:120px;height:auto;margin:0 0 10px -4px;mix-blend-mode:multiply}
+.win-own .w-img{mix-blend-mode:normal}
+.prose > h2:first-child{margin-top:8px}
+.prose ul{margin-left:0;padding-left:20px}
+.related ul{margin-left:0 !important;padding-left:18px}
+.faq{margin-top:56px}
+.cards .card{min-height:150px}
+@media (max-width:860px){
+  .compare-wrap{background:none;box-shadow:none;border-radius:0;overflow:visible}
+  .compare tr{border:0;border-radius:20px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.04),0 8px 28px rgba(0,0,0,.06);padding:22px 22px 20px;margin-bottom:16px}
+  .compare td{padding:9px 0;border-top:1px solid #f0f0f3;font-size:.94rem;gap:20px;background:none !important}
+  .compare td:first-child{padding:0 0 12px;border-top:0}
+  .compare td:first-child b{font-size:1.15rem;display:block;margin-bottom:2px}
+  .compare td:last-child{padding:14px 0 0;border-top:0}
+  .compare td[data-label]:not(:first-child)::before{font-weight:500;color:var(--muted)}
+}
+@media (max-width:768px){
+  .verdict{padding:24px 22px}
+  .v-img{width:104px;margin:0 0 8px 16px}
+  .win{padding:26px 22px}
+  .article{padding-top:24px}
+  .quick-answer,.article .quick-answer{padding:22px 22px}
+}
+
+/* --- spacing-pas 3 (mobil) --- */
+.compare a.out,.compare .btn-buy{text-decoration:none}
+.w-img{width:150px}
+@media (max-width:860px){
+  .compare td[data-label]:not(:first-child)::before{flex:1 1 auto}
+  .compare td[data-label]:not(:first-child) > *{margin-left:10px}
+  .compare td .sub{display:inline;margin-left:8px;font-size:.8rem}
+}
+@media (max-width:768px){
+  .trio b{font-size:1.5rem;margin-bottom:8px}
+  .trio div{padding:24px 22px}
+  .pgrid,#udvalget .pgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .pcard{padding:18px 12px 16px;border-radius:18px}
+  .pcard img{margin-bottom:12px}
+  .pname{font-size:1rem}
+  .pline{font-size:.78rem;margin:2px 0 8px}
+  .pprice b{font-size:.92rem}
+  .buy{font-size:.88rem;margin-top:8px}
+  .w-img{width:130px}
+  .statement h2{font-size:2rem !important}
+}
+
+/* --- spacing-pas 4 --- */
+.verdict h3{margin:4px 0 2px !important}
+.v-price{color:var(--muted) !important;font-size:1rem !important;margin:0 0 16px !important}
+@media (max-width:860px){
+  .compare td:first-child .sub{display:block;margin:2px 0 0 !important}
+}
+@media (max-width:768px){
+  .cards .card{min-height:0;padding:22px 20px}
+}
+
+/* --- spacing-pas 5 --- */
+.rail{display:none}
+.prose a.card,.card{color:var(--ink) !important;text-decoration:none !important}
+.card strong{color:var(--ink)}
+.cards-lg .card em{color:var(--muted);line-height:1.45}
+.compare td b{white-space:nowrap}
+.win a{margin-top:auto;padding-top:6px}
+
+/* lange danske ord i overskrifter */
+h1,h2,h3{-webkit-hyphens:auto;hyphens:auto;overflow-wrap:break-word}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Forside","item":"https://skaerme.dk/"},{"@type":"ListItem","position":2,"name":"404","item":"https://skaerme.dk/404"}]}</script>
+</head>
+<body>
+<div class="promo"><span>✓ Udvalgt til Mac</span><span>✓ Gratis fragt i Danmark</span><span>✓ 30 dages fortrydelsesret</span></div>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/" aria-label="skaerme.dk">
+      <img src="/logo-icon.png" alt="" width="36" height="36">
+      <span class="logo-text"><b>skaerme<span></span>.dk</b><small>Skærme udvalgt til Mac</small></span>
+    </a>
+    <nav class="main-nav" id="nav"><a href="/#vinderne">Vinderne</a><a href="/5k-skaerm">5K sammenlignet</a><a href="/6k-skaerm">6K sammenlignet</a><a href="/studio-display-alternativ">Studio Display</a><a href="/guides">Guides</a></nav>
+    <a class="btn-buy btn-sm head-cta" href="https://deskcph.dk/collections/skaerme?utm_source=skaerme.dk&amp;utm_medium=referral&amp;utm_campaign=seo-da&amp;utm_content=header&amp;utm_term=404">Se udvalget</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰</button>
+  </div>
+</header>
+<main class="wrap narrow article">
+  <nav class="crumbs" aria-label="Brødkrumme"><a href="/">Forside</a> / <span>404</span></nav>
+  <p class="eyebrow">404</p>
+  <h1>Øv, den side findes ikke</h1>
+  <p class="meta">Opdateret 14. september 2026 · Priser tjekket 14. september 2026</p>
+  
+  
+  <div class="rail"><p class="rail-h">Nævnt i guiden</p><div class="pgrid"><a class="pcard" href="https://deskcph.dk/products/kuycon-g27p?utm_source=skaerme.dk&amp;utm_medium=referral&amp;utm_campaign=seo-da&amp;utm_content=artikel-raekke&amp;utm_term=404"><img src="/img/kuycon-g27p-400.webp" width="400" height="400" alt="Kuycon G27P 27 tommer 5K-skærm" loading="lazy" decoding="async"><span class="pname">Kuycon G27P</span><span class="pline">27 tommer 5K, 600 nits, 75 Hz, 10-bit</span><span class="pprice"><b>10.495 kr.</b></span><span class="pship">Gratis fragt i Danmark</span><span class="buy">Se prisen</span></a><a class="pcard" href="https://deskcph.dk/products/kuycon-g27x-se?utm_source=skaerme.dk&amp;utm_medium=referral&amp;utm_campaign=seo-da&amp;utm_content=artikel-raekke&amp;utm_term=404"><img src="/img/kuycon-g27x-se-400.webp" width="400" height="400" alt="Kuycon G27X SE 27 tommer 5K-skærm" loading="lazy" decoding="async"><span class="pname">Kuycon G27X SE</span><span class="pline">27 tommer 5K, 218 PPI, stander medfølger</span><span class="pprice"><b>8.995 kr.</b></span><span class="pship">Gratis fragt i Danmark</span><span class="buy">Se prisen</span></a><a class="pcard" href="https://deskcph.dk/products/kuycon-p27z?utm_source=skaerme.dk&amp;utm_medium=referral&amp;utm_campaign=seo-da&amp;utm_content=artikel-raekke&amp;utm_term=404"><img src="/img/kuycon-p27z-400.webp" width="400" height="400" alt="Kuycon P27Z 27 tommer 5K 180 Hz-skærm" loading="lazy" decoding="async"><span class="pname">Kuycon P27Z</span><span class="pline">27 tommer 5K op til 180 Hz, HDR600</span><span class="pprice"><b>14.495 kr.</b></span><span class="pship">Gratis fragt i Danmark</span><span class="buy">Se prisen</span></a></div></div>
+  <div class="prose"><p>Prøv <a href="/">forsiden</a> eller vores guides.</p></div>
+  
+  
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div><b>skaerme.dk</b><p>Sammenligninger af skærme til Mac med danske priser. skaerme.dk drives af Desk Copenhagen, der sælger Kuycon-skærmene på siden.</p></div>
+      <nav><a href="/#vinderne">Vinderne</a><a href="/5k-skaerm">5K sammenlignet</a><a href="/6k-skaerm">6K sammenlignet</a><a href="/studio-display-alternativ">Studio Display</a><a href="/guides">Guides</a><a href="/om">Om siden</a><a href="/kontakt">Kontakt</a><a href="/privatliv">Privatliv</a></nav>
+    </div>
+    <p class="footer-copy">© 2026 skaerme.dk. Priser inkl. moms, tjekket 14. september 2026. Apple, Studio Display, Mac og andre nævnte mærker tilhører deres respektive ejere.</p>
+  </div>
+</footer>
+<div class="mobile-cta"><a href="https://deskcph.dk/products/kuycon-g27p?utm_source=skaerme.dk&amp;utm_medium=referral&amp;utm_campaign=seo-da&amp;utm_content=mobil-knap&amp;utm_term=404">Se Kuycon G27P →</a></div>
+</body>
+</html>
