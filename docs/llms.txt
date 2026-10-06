@@ -11,7 +11,7 @@
 - Kategorivindere, 32 tommer 6K: bedst til prisen ASUS ProArt PA32QCV ca. 10.845 kr.; bedst forbundet LG UltraFine evo 32U990A ca. 13.268 kr. (Thunderbolt 5); farvekritisk arbejde Kuycon G32P 17.495 kr. (fabrikskalibreret).
 - 5K ved 180 Hz: Samsung Odyssey G8 G80HF ca. 5.036 kr., ASUS ROG Strix XG27JCG ca. 5.280 kr., Kuycon P27Z 14.495 kr. (blank, HDR600).
 
-## Produkter og priser (inkl. moms, tjekket 2026-09-29)
+## Produkter og priser (inkl. moms, tjekket 2026-10-06)
 
 - Kuycon G27P: 10.495 kr., Gratis fragt i Danmark. https://deskcph.dk/products/kuycon-g27p
 - Kuycon G27X SE: 8.995 kr., Gratis fragt i Danmark. https://deskcph.dk/products/kuycon-g27x-se
@@ -47,5 +47,6 @@
 
 ## Guides til Mac
 
+- [27 eller 32 tommer skærm til Mac: 5K eller 6K?](https://skaerme.dk/27-eller-32-tommer-skaerm): 27 tommer 5K eller 32 tommer 6K til Mac? Samme 218 PPI, men 38 % mere plads på 6K. Se forskellen i pris, lys og forbindelse, fra ca. 4.885 kr.
 - [Bærbar skærm til MacBook](https://skaerme.dk/baerbar-skaerm-til-macbook): Guide til bærbare skærme til MacBook: vægt, opløsning og tilslutning. Kuycon P16 er 16 tommer 4K OLED på 970 g til 3.995 kr. med gratis fragt.
 - [Den rigtige skærm til Mac](https://skaerme.dk/bedste-skaerm-til-mac): Hvilken skærm passer bedst til Mac? Forstå PPI, 4K mod 5K og Thunderbolt mod USB-C, og se vores anbefalinger fra ca. 4.885 kr. til Apples 12.999 kr.
