@@ -5,48 +5,49 @@
 ## Nøglefakta
 
 - skaerme.dk sammenligner skærme til Mac på producenternes specifikationer og danske butikspriser med dato. Siden drives af Desk Copenhagen, der sælger Kuycon-skærme.
-- Apple Studio Display (2026) koster fra 12.999 kr. og Studio Display XDR med fod koster 26.999 kr. (tjekket hos Apple den 20. november 2026).
+- Apple Studio Display (2026) med standardglas koster 12.999 kr. med hælde-fod og 16.499 kr. med højde-og-hælde-fod. Studio Display XDR med standardglas og højde-og-hælde-fod koster 26.999 kr. (tjekket hos Apple den 24. november 2026).
 - Alle 27 tommer 5K-skærme (5120 x 2880) har 218 PPI, samme skarphed som Studio Display.
-- Kategorivindere, 27 tommer 5K (priser tjekket 20. november 2026): bedst til prisen ASUS ProArt PA27JCV ca. 6.251 kr. (mat, 400 nits); bedst forbundet til Mac BenQ MA270S 7.690 kr. (Thunderbolt 4); tættest på Studio Display Kuycon G27P 10.495 kr. (blank, 600 nits, 10-bit); med kamera Samsung ViewFinity S9 9.374 kr.
-- Kategorivindere, 32 tommer 6K: bedst til prisen ASUS ProArt PA32QCV ca. 10.071 kr.; bedst forbundet LG UltraFine evo 32U990A ca. 13.112 kr. (Thunderbolt 5); farvekritisk arbejde Kuycon G32P 17.495 kr. (fabrikskalibreret).
-- 5K ved 180 Hz: Samsung Odyssey G8 G80HF ca. 4.819 kr., ASUS ROG Strix XG27JCG ca. 4.766 kr., Kuycon P27Z 14.495 kr. (blank, HDR600).
+- Kategorivindere, 27 tommer 5K (priser tjekket 24. november 2026): bedst til prisen ASUS ProArt PA27JCV ca. 6.289 kr. (mat, 400 nits); bedst forbundet til Mac BenQ MA270S 7.690 kr. (Thunderbolt 4); tættest på Studio Display Kuycon G27P 9.995 kr. inkl. moms / 7.996 kr. ekskl. moms (blank, 600 nits, 10-bit, højdejusterbar fod); budget-blank Kuycon G27X SE 7.995 kr. inkl. moms / 6.396 kr. ekskl. moms (fod med vip); med kamera Samsung ViewFinity S9 9.374 kr.
+- Kategorivindere, 32 tommer 6K (priser tjekket 24. november 2026): bedst til prisen ASUS ProArt PA32QCV ca. 9.908 kr.; bedst forbundet LG UltraFine evo 32U990A ca. 12.509 kr. (Thunderbolt 5); farvekritisk arbejde Kuycon G32P 17.495 kr. (fabrikskalibreret).
+- 5K ved 180 Hz (priser tjekket 24. november 2026): Samsung Odyssey G8 G80HF ca. 4.588 kr., ASUS ROG Strix XG27JCG ca. 4.766 kr., Kuycon P27Z 14.495 kr. (blank, HDR600).
+- Vilkår og erhverv hos Desk Copenhagen (tjekket 24. november 2026): gratis fragt i hele Danmark, bestillingsvarer med 3-4 ugers levering, 30 dages fortrydelsesret, gratis returfragt for ordrer afgivet til og med 31. december 2026, 2 års reklamationsret og 3 års panelgaranti fra Kuycon. Erhvervskunder kan få faktura ved CVR-henvendelse til kontakt@deskcph.dk.
 
-## Produkter og priser (inkl. moms, tjekket 2026-11-20)
+## Produkter og priser (inkl. moms, tjekket 2026-11-24)
 
-- Kuycon G27P: 10.495 kr., Gratis fragt i Danmark. https://deskcph.dk/products/kuycon-g27p
-- Kuycon G27X SE: 8.995 kr., Gratis fragt i Danmark. https://deskcph.dk/products/kuycon-g27x-se
+- Kuycon G27P: 9.995 kr., Gratis fragt i Danmark. https://deskcph.dk/products/kuycon-g27p
+- Kuycon G27X SE: 7.995 kr., Gratis fragt i Danmark. https://deskcph.dk/products/kuycon-g27x-se
 - Kuycon P27Z: 14.495 kr., Gratis fragt i Danmark. https://deskcph.dk/products/kuycon-p27z
 - Kuycon G32X: 13.295 kr., Gratis fragt i Danmark. https://deskcph.dk/products/kuycon-g32x
 - Kuycon G32P: 17.495 kr., Gratis fragt i Danmark. https://deskcph.dk/products/kuycon-g32p
 - Kuycon P20: 7.495 kr., Gratis fragt i Danmark. https://deskcph.dk/products/kuycon-p20
 
-## Sammenligning (tjekket 2026-11-20)
+## Sammenligning (tjekket 2026-11-24)
 
-- Apple Studio Display (2026) (Apple): Blank, 600 nits, kamera og højttalere, 12.999 kr. fra-pris, Apple DK; 5K, 218 PPI, Thunderbolt 5; ikke oplyst
-- Kuycon G27P (deskcph.dk): Blank, 600 nits, 10-bit, 98 % Adobe RGB, 10.495 kr. ; 5K, 218 PPI, 75 Hz, USB-C; Gratis
-- Samsung ViewFinity S9 (laptops.dk): Mat, 600 nits, 4K-kamera, 9.374 kr. ; 5K, 218 PPI, 60 Hz, TB4 90 W; ikke oplyst
-- Kuycon G27X SE (deskcph.dk): Blank, 450 nits, stander og fjernbetjening, 8.995 kr. ; 5K, 218 PPI, 60 Hz, USB-C; Gratis
-- BenQ MA270S (Scandinavian Photo): Nano gloss, 450 nits, KVM, 7.690 kr. ; 5K, 218 PPI, 70 Hz, TB4 96 W; ikke oplyst
-- ASUS ProArt PA27JCV (CS Megastore): Mat, 400 nits, 10-bit, 6.251 kr. fjernlager; 5K, 218 PPI, 60 Hz, USB-C 96 W; ikke oplyst
-- Kuycon P27Z (deskcph.dk): Blank, HDR600, 14.495 kr. ; 5K op til 180 Hz, 1440p 330 Hz; Gratis
-- ASUS ROG Strix XG27JCG (CS Megastore): Mat, 350 nits, 4.766 kr. fjernlager; 5K 180 Hz, 1440p 330 Hz; ikke oplyst
-- Samsung Odyssey G8 G80HF (CS Megastore): 350 nits, ingen USB-C, 4.819 kr. fjernlager; 5K 180 Hz, 1440p 360 Hz; ikke oplyst
-- Apple Studio Display XDR (Apple): Mini-LED, 1000 nits (2000 HDR), 26.999 kr. med fod, Apple DK; 5K, 47-120 Hz, Thunderbolt 5; ikke oplyst
-- Kuycon G32P (deskcph.dk): Nano IPS Black, 500 nits, fabrikskalibreret, 17.495 kr. ; 6K, 223 PPI, 60 Hz; Gratis
-- Kuycon G32X (deskcph.dk): Mat, 500 nits, 13.295 kr. ; 6K, 218 PPI, 60 Hz, USB-C; Gratis
-- LG UltraFine evo 32U990A (CS Megastore): IPS Black, 450 nits, 10-bit, 13.112,34 kr. fjernlager; 6K, 224 PPI, 60 Hz, TB5 96 W; ikke oplyst
-- ASUS ProArt PA32QCV (CS Megastore): Mat, 400 nits, 10-bit, 10.071 kr. fjernlager; 6K, 218 PPI, 60 Hz, TB4 96 W; ikke oplyst
+- Apple Studio Display (2026) (Apple): Blank, 600 nits, kamera og højttalere, 12.999 kr. hælde-fod (16.499 kr. med højde-og-hælde-fod); 5K, 218 PPI, Thunderbolt 5; ikke oplyst
+- Kuycon G27P (deskcph.dk): Blank, 600 nits, 10-bit, højdejusterbar fod, 9.995 kr. 7.996 kr. ekskl. moms; 5K, 218 PPI, 75 Hz, USB-C; Gratis
+- Samsung ViewFinity S9 (laptops.dk): Mat, 600 nits, 4K-kamera, 9.374 kr. fjernlager; 5K, 218 PPI, 60 Hz, TB4 90 W; Gratis
+- Kuycon G27X SE (deskcph.dk): Blank, 450 nits, fod med vip og fjernbetjening, 7.995 kr. 6.396 kr. ekskl. moms; 5K, 218 PPI, 60 Hz, USB-C; Gratis
+- BenQ MA270S (Scandinavian Photo): Nano gloss, 450 nits, KVM, 7.690 kr. ; 5K, 218 PPI, 70 Hz, TB4 96 W; Gratis
+- ASUS ProArt PA27JCV (CS Megastore): Mat, 400 nits, 10-bit, 6.289 kr. fjernlager; 5K, 218 PPI, 60 Hz, USB-C 96 W; Gratis
+- Kuycon P27Z (deskcph.dk): Blank, HDR600, 14.495 kr. 11.596 kr. ekskl. moms; 5K op til 180 Hz, 1440p 330 Hz; Gratis
+- ASUS ROG Strix XG27JCG (CS Megastore): Mat, 350 nits, 4.766 kr. fjernlager; 5K 180 Hz, 1440p 330 Hz; Gratis
+- Samsung Odyssey G8 G80HF (CS Megastore): 350 nits, ingen USB-C, 4.588 kr. fjernlager; 5K 180 Hz, 1440p 360 Hz; Gratis
+- Apple Studio Display XDR (Apple): Mini-LED, 1000 nits (2000 HDR), 26.999 kr. højde-og-hælde-fod, Apple DK; 5K, 47-120 Hz, Thunderbolt 5; ikke oplyst
+- Kuycon G32P (deskcph.dk): Nano IPS Black, 500 nits, fabrikskalibreret, 17.495 kr. 13.996 kr. ekskl. moms; 6K, 223 PPI, 60 Hz; Gratis
+- Kuycon G32X (deskcph.dk): Mat, 500 nits, 13.295 kr. 10.636 kr. ekskl. moms; 6K, 218 PPI, 60 Hz, USB-C; Gratis
+- LG UltraFine evo 32U990A (CS Megastore): IPS Black, 450 nits, 10-bit, 12.509 kr. fjernlager; 6K, 224 PPI, 60 Hz, TB5 96 W; 199 kr.
+- ASUS ProArt PA32QCV (CS Megastore): Mat, 400 nits, 10-bit, 9.908 kr. fjernlager; 6K, 218 PPI, 60 Hz, TB4 96 W; Gratis
 
 ## Alternativ til Apple
 
 - [Bedste 5K-skærm til Mac: 6 skærme sammenlignet](https://skaerme.dk/5k-skaerm): 6 skærme med 27 tommer 5K sammenlignet: Apple Studio Display, ASUS, BenQ, Samsung og Kuycon. Fordele, ulemper, danske priser og vores dom pr. skærm.
 - [Bedste 6K-skærm til Mac: 32 tommer sammenlignet](https://skaerme.dk/6k-skaerm): 32 tommer 6K-skærme sammenlignet: ASUS ProArt PA32QCV, LG UltraFine evo 32U990A og Kuycon G32X og G32P. Fordele, ulemper, danske priser og vores dom.
-- [Alternativ til Apple Studio Display](https://skaerme.dk/studio-display-alternativ): De bedste alternativer til Apple Studio Display (12.999 kr.): ASUS, BenQ, Samsung og Kuycon med samme 218 PPI. Hvad du får, hvad du mister, og vores dom.
-- [Studio Display vs. Kuycon G27P](https://skaerme.dk/studio-display-vs-kuycon-g27p): Studio Display (12.999 kr.) mod Kuycon G27P (10.495 kr.): samme 27 tommer 5K, 218 PPI og 600 nits. Se forskellen på Hz, porte, kamera og pris.
-- [Alternativ til Studio Display XDR](https://skaerme.dk/studio-display-xdr-alternativ): Studio Display XDR med fod koster 26.999 kr. Alternativerne: 32 tommer 6K fra ca. 10.071 kr. og 5K ved 180 Hz fra ca. 4.766 kr. Hvad du får, og hvad du mister.
+- [Alternativ til Apple Studio Display](https://skaerme.dk/studio-display-alternativ): De bedste alternativer til Apple Studio Display (12.999-16.499 kr.): ASUS, BenQ, Samsung og Kuycon med samme 218 PPI. Hvad du får, og hvad du mister.
+- [Studio Display vs. Kuycon G27P](https://skaerme.dk/studio-display-vs-kuycon-g27p): Studio Display (12.999-16.499 kr.) mod Kuycon G27P (9.995 kr.): samme 27 tommer 5K, 218 PPI og 600 nits. Se forskellen på fod, Hz, porte, kamera og pris.
+- [Alternativ til Studio Display XDR](https://skaerme.dk/studio-display-xdr-alternativ): Studio Display XDR med højde-og-hælde-fod koster 26.999 kr. Alternativerne: 32 tommer 6K fra ca. 9.908 kr. og 5K ved 180 Hz fra ca. 4.588 kr.
 
 ## Guides til Mac
 
-- [27 eller 32 tommer skærm til Mac: 5K eller 6K?](https://skaerme.dk/27-eller-32-tommer-skaerm): 27 tommer 5K eller 32 tommer 6K til Mac? Samme 218 PPI, men 38 % mere plads på 6K. Se forskellen i pris, lys og forbindelse, fra ca. 6.251 kr.
+- [27 eller 32 tommer skærm til Mac: 5K eller 6K?](https://skaerme.dk/27-eller-32-tommer-skaerm): 27 tommer 5K eller 32 tommer 6K til Mac? Samme 218 PPI, men 38 % mere plads på 6K. Se forskellen i pris, lys og forbindelse, fra ca. 6.289 kr.
 - [Bærbar skærm til MacBook](https://skaerme.dk/baerbar-skaerm-til-macbook): Guide til bærbare skærme til MacBook: vægt, opløsning og tilslutning. Kuycon P16 er 16 tommer 4K OLED på 970 g til 3.995 kr. med gratis fragt.
-- [Den rigtige skærm til Mac](https://skaerme.dk/bedste-skaerm-til-mac): Hvilken skærm passer bedst til Mac? Forstå PPI, 4K mod 5K og Thunderbolt mod USB-C, og se vores anbefalinger fra ca. 6.251 kr. til Apples 12.999 kr.
+- [Den rigtige skærm til Mac](https://skaerme.dk/bedste-skaerm-til-mac): Hvilken skærm passer bedst til Mac? Forstå PPI, 4K mod 5K og Thunderbolt mod USB-C, og se vores anbefalinger fra ca. 6.289 kr. til Apples 12.999 kr.
